@@ -13,7 +13,7 @@ var gitHtml_l = (function(e){
   $(".content").each(function(){
       var trec = $(this).html(), tren;
           tren = trec.replace(/\/blob\//g,'/raw/').
-                      replace(/\.html\"/g,'.html#gitHtml"');
+                      replace(/\.htm(l?)\"/g,'.htm$1#gitHtml"');
       $(this).html(tren);
   });
   $(".content .js-slide-to").removeClass();
@@ -37,7 +37,7 @@ var gitHtml_l = (function(e){
             "}"+
         "</style>"
       );
-      if(location.href.indexOf('.html')>5){
+      if(location.href.indexOf('.htm')>5){
         $(".bubble#files .file .meta div.info").
             append("<span class='gitrends git-html-btn'><a href='javascript:;' onclick='gitHtml_r();return false;' class='minibutton git-html-btn'>git-html</a></span>");      
       } 

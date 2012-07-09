@@ -135,7 +135,7 @@
           pr = escape(gitHtml.decode(el,pr));
           if(location.href.indexOf('#gitHtml')==-1)
             pr = pr.replace(/http/g,'https');
-          pr = pr.replace(/\.html/g,'.html#gitHtml');
+          pr = pr.replace(/\.htm(l?)/g,'.htm$1#gitHtml');
             
   	  pr = unescape(pr).replace(/\n/g,'--githtml-newline--').replace(/\s/g,' ').replace(/--githtml-newline--/g,'\n');
       gitHtml.open(
