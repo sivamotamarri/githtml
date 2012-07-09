@@ -98,7 +98,7 @@
           cel('link',{
             type: 'text/css',
             rel:  'stylesheet',
-            href: 'https://a248.e.akamai.net/assets.github.com/assets/github-25f0cdc450c8628e99f0aca61ea96d2e66e045c5.css'
+            href: 'https://a248.e.akamai.net/assets.github.com/assets/github-496f7426a679ea2d607d7e535f79e4be5f2a5352.css'
           },d.body);
         }
         d.body.appendChild(allow);
