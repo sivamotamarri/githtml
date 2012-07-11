@@ -2,7 +2,7 @@
 /*!
  * githtml.js
  * github.com/ryt/githtml
- * Copyright 2012, Rediat Mentoses
+ * Copyright 2012, Redment
  */
   var cel = function(tag,prop,ap){
     var c=document.createElement(tag);
