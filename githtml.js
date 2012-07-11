@@ -3,6 +3,7 @@
  * githtml.js
  * github.com/ryt/githtml
  * Copyright 2012, Redment
+ * License http://www.apache.org/licenses/LICENSE-2.0
  */
   var cel = function(tag,prop,ap){
     var c=document.createElement(tag);
